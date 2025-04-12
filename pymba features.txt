@@ -1,0 +1,752 @@
+AcquisitionAbort
+AcquisitionAbort
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+AcquisitionFrameCount
+AcquisitionFrameCount
+	value: 1
+	range: (1, 65535)
+AcquisitionFrameRateAbs
+AcquisitionFrameRateAbs
+	value: 30.011104108520154
+	range: (0.012732925961193301, 30.011104108520154)
+AcquisitionFrameRateLimit
+AcquisitionFrameRateLimit
+	value: 30.011104108520154
+	range: (0.012732925961193301, 30.011104108520154)
+AcquisitionMode
+AcquisitionMode
+	value: Continuous
+	range: ['Continuous', 'SingleFrame', 'MultiFrame', 'Recorder']
+AcquisitionStart
+AcquisitionStart
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+AcquisitionStop
+AcquisitionStop
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+BandwidthControlMode
+BandwidthControlMode
+	value: StreamBytesPerSecond
+	range: ['StreamBytesPerSecond', 'SCPD', 'Both']
+BinningHorizontal
+BinningHorizontal
+	value: 1
+	range: (1, 8)
+BinningVertical
+BinningVertical
+	value: 1
+	range: (1, 14)
+ChunkModeActive
+ChunkModeActive
+	value: False
+	range: None
+DSPSubregionBottom
+DSPSubregionBottom
+	value: 4294967295
+	range: (0, 4294967295)
+DSPSubregionLeft
+DSPSubregionLeft
+	value: 0
+	range: (0, 4294967295)
+DSPSubregionRight
+DSPSubregionRight
+	value: 4294967295
+	range: (0, 4294967295)
+DSPSubregionTop
+DSPSubregionTop
+	value: 0
+	range: (0, 4294967295)
+DeviceFirmwareVersion
+DeviceFirmwareVersion
+	value: 00.01.42.04 
+	range: None
+DeviceID
+DeviceID
+	value: 02-2306B-06057
+	range: None
+DeviceModelName
+DeviceModelName
+	value: GS1380
+	range: None
+DevicePartNumber
+DevicePartNumber
+	value: 02-2306B
+	range: None
+DeviceScanType
+DeviceScanType
+	value: Areascan
+	range: ['Areascan']
+DeviceUserID
+DeviceUserID
+	value: 
+	range: None
+DeviceVendorName
+DeviceVendorName
+	value: Allied Vision Technologies
+	range: None
+EventAcquisitionEnd
+EventAcquisitionEnd
+	value: 40001
+	range: (-9223372036854775808, 9223372036854775807)
+EventAcquisitionEndFrameID
+EventAcquisitionEndFrameID
+	value: 0
+	range: (0, 4294967295)
+EventAcquisitionEndTimestamp
+EventAcquisitionEndTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventAcquisitionRecordTrigger
+EventAcquisitionRecordTrigger
+	value: 40004
+	range: (-9223372036854775808, 9223372036854775807)
+EventAcquisitionRecordTriggerFrameID
+EventAcquisitionRecordTriggerFrameID
+	value: 0
+	range: (0, 4294967295)
+EventAcquisitionRecordTriggerTimestamp
+EventAcquisitionRecordTriggerTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventAcquisitionStart
+EventAcquisitionStart
+	value: 40000
+	range: (-9223372036854775808, 9223372036854775807)
+EventAcquisitionStartFrameID
+EventAcquisitionStartFrameID
+	value: 0
+	range: (0, 4294967295)
+EventAcquisitionStartTimestamp
+EventAcquisitionStartTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventError
+EventError
+	value: 65535
+	range: (-9223372036854775808, 9223372036854775807)
+EventErrorFrameID
+EventErrorFrameID
+	value: 0
+	range: (0, 4294967295)
+EventErrorTimestamp
+EventErrorTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventExposureEnd
+EventExposureEnd
+	value: 40003
+	range: (-9223372036854775808, 9223372036854775807)
+EventExposureEndFrameID
+EventExposureEndFrameID
+	value: 0
+	range: (0, 4294967295)
+EventExposureEndTimestamp
+EventExposureEndTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventFrameTrigger
+EventFrameTrigger
+	value: 40002
+	range: (-9223372036854775808, 9223372036854775807)
+EventFrameTriggerFrameID
+EventFrameTriggerFrameID
+	value: 0
+	range: (0, 4294967295)
+EventFrameTriggerTimestamp
+EventFrameTriggerTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine1FallingEdge
+EventLine1FallingEdge
+	value: 40011
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine1FallingEdgeFrameID
+EventLine1FallingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine1FallingEdgeTimestamp
+EventLine1FallingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine1RisingEdge
+EventLine1RisingEdge
+	value: 40010
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine1RisingEdgeFrameID
+EventLine1RisingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine1RisingEdgeTimestamp
+EventLine1RisingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine2FallingEdge
+EventLine2FallingEdge
+	value: 40013
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine2FallingEdgeFrameID
+EventLine2FallingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine2FallingEdgeTimestamp
+EventLine2FallingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine2RisingEdge
+EventLine2RisingEdge
+	value: 40012
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine2RisingEdgeFrameID
+EventLine2RisingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine2RisingEdgeTimestamp
+EventLine2RisingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine3FallingEdge
+EventLine3FallingEdge
+	value: 40015
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine3FallingEdgeFrameID
+EventLine3FallingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine3FallingEdgeTimestamp
+EventLine3FallingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine3RisingEdge
+EventLine3RisingEdge
+	value: 40014
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine3RisingEdgeFrameID
+EventLine3RisingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine3RisingEdgeTimestamp
+EventLine3RisingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine4FallingEdge
+EventLine4FallingEdge
+	value: 40017
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine4FallingEdgeFrameID
+EventLine4FallingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine4FallingEdgeTimestamp
+EventLine4FallingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventLine4RisingEdge
+EventLine4RisingEdge
+	value: 40016
+	range: (-9223372036854775808, 9223372036854775807)
+EventLine4RisingEdgeFrameID
+EventLine4RisingEdgeFrameID
+	value: 0
+	range: (0, 4294967295)
+EventLine4RisingEdgeTimestamp
+EventLine4RisingEdgeTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventNotification
+EventNotification
+	value: Off
+	range: ['Off', 'On']
+EventOverflow
+EventOverflow
+	value: 65534
+	range: (-9223372036854775808, 9223372036854775807)
+EventOverflowFrameID
+EventOverflowFrameID
+	value: 0
+	range: (0, 4294967295)
+EventOverflowTimestamp
+EventOverflowTimestamp
+	value: 0
+	range: (0, 9223372036854775807)
+EventSelector
+EventSelector
+	value: AcquisitionStart
+	range: ['AcquisitionStart', 'AcquisitionEnd', 'FrameTrigger', 'ExposureEnd', 'AcquisitionRecordTrigger', 'Line1RisingEdge', 'Line1FallingEdge', 'Line2RisingEdge', 'Line2FallingEdge', 'Line3RisingEdge', 'Line3FallingEdge', 'Line4RisingEdge', 'Line4FallingEdge']
+EventsEnable1
+EventsEnable1
+	value: 0
+	range: (0, 4294967295)
+ExposureAuto
+ExposureAuto
+	value: Continuous
+	range: ['Off', 'Once', 'Continuous', 'other']
+ExposureAutoAdjustTol
+ExposureAutoAdjustTol
+	value: 5
+	range: (0, 50)
+ExposureAutoAlg
+ExposureAutoAlg
+	value: Mean
+	range: ['Mean', 'FitRange']
+ExposureAutoMax
+ExposureAutoMax
+	value: 50000
+	range: (10, 60000000)
+ExposureAutoMin
+ExposureAutoMin
+	value: 10
+	range: (10, 60000000)
+ExposureAutoOutliers
+ExposureAutoOutliers
+	value: 0
+	range: (0, 1000)
+ExposureAutoRate
+ExposureAutoRate
+	value: 100
+	range: (1, 100)
+ExposureAutoTarget
+ExposureAutoTarget
+	value: 50
+	range: (0, 100)
+ExposureMode
+ExposureMode
+	value: Timed
+	range: ['Timed']
+ExposureTimeAbs
+ExposureTimeAbs
+	value: 4035.0
+	range: (10.0, 60000000.0)
+FirmwareVerBuild
+FirmwareVerBuild
+	value: 4
+	range: (0, 4294967295)
+FirmwareVerMajor
+FirmwareVerMajor
+	value: 1
+	range: (0, 4294967295)
+FirmwareVerMinor
+FirmwareVerMinor
+	value: 42
+	range: (0, 4294967295)
+GVCPCmdRetries
+GVCPCmdRetries
+	value: 5
+	range: (1, 9)
+GVCPCmdTimeout
+GVCPCmdTimeout
+	value: 250
+	range: (100, 10000)
+GVSPAdjustPacketSize
+GVSPAdjustPacketSize
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+GVSPBurstSize
+GVSPBurstSize
+	value: 1
+	range: (1, 256)
+GVSPDriver
+GVSPDriver
+	value: Filter
+	range: ['Socket', 'Filter']
+GVSPFilterVersion
+GVSPFilterVersion
+	value: 02.05.07
+	range: None
+GVSPHostReceiveBufferSize
+GVSPHostReceiveBufferSize
+	value: Operation is invalid with the current access mode.
+	range: None
+GVSPMaxLookBack
+GVSPMaxLookBack
+	value: 30
+	range: (0, 1024)
+GVSPMaxRequests
+GVSPMaxRequests
+	value: 1
+	range: (0, 512)
+GVSPMaxWaitSize
+GVSPMaxWaitSize
+	value: 100
+	range: (8, 1024)
+GVSPMissingSize
+GVSPMissingSize
+	value: 256
+	range: (0, 1024)
+GVSPPacketSize
+GVSPPacketSize
+	value: 1500
+	range: (500, 16384)
+GVSPTiltingSize
+GVSPTiltingSize
+	value: 100
+	range: (0, 1024)
+GVSPTimeout
+GVSPTimeout
+	value: 70
+	range: (0, 5000)
+GainAuto
+GainAuto
+	value: Off
+	range: ['Off', 'Once', 'Continuous']
+GainAutoAdjustTol
+GainAutoAdjustTol
+	value: 5
+	range: (0, 50)
+GainAutoMax
+GainAutoMax
+	value: 33
+	range: (0, 33)
+GainAutoMin
+GainAutoMin
+	value: 0
+	range: (0, 33)
+GainAutoOutliers
+GainAutoOutliers
+	value: 0
+	range: (0, 1000)
+GainAutoRate
+GainAutoRate
+	value: 100
+	range: (1, 100)
+GainAutoTarget
+GainAutoTarget
+	value: 50
+	range: (0, 100)
+GainRaw
+GainRaw
+	value: 0
+	range: (0, 33)
+GainSelector
+GainSelector
+	value: All
+	range: ['All']
+GevCurrentDefaultGateway
+GevCurrentDefaultGateway
+	value: 0
+	range: (0, 4294967295)
+GevCurrentIPAddress
+GevCurrentIPAddress
+	value: 2852023513
+	range: (0, 4294967295)
+GevCurrentSubnetMask
+GevCurrentSubnetMask
+	value: 4294901760
+	range: (0, 4294967295)
+GevDeviceMACAddress
+GevDeviceMACAddress
+	value: 65246719890
+	range: (0, 9223372036854775807)
+GevHeartbeatInterval
+GevHeartbeatInterval
+	value: 1450
+	range: (200, 1450)
+GevHeartbeatTimeout
+GevHeartbeatTimeout
+	value: 3000
+	range: (1350, 100000)
+GevIPConfigurationMode
+GevIPConfigurationMode
+	value: DHCP
+	range: ['LLA', 'DHCP', 'Persistent']
+GevPersistentDefaultGateway
+GevPersistentDefaultGateway
+	value: 3232241409
+	range: (0, 4294967295)
+GevPersistentIPAddress
+GevPersistentIPAddress
+	value: 3232241410
+	range: (0, 4294967295)
+GevPersistentSubnetMask
+GevPersistentSubnetMask
+	value: 4294967040
+	range: (0, 4294967295)
+GevSCPSPacketSize
+GevSCPSPacketSize
+	value: 1500
+	range: (500, 16384)
+GevTimestampControlLatch
+GevTimestampControlLatch
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+GevTimestampControlReset
+GevTimestampControlReset
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+GevTimestampTickFrequency
+GevTimestampTickFrequency
+	value: 54687500
+	range: (0, 4294967295)
+GevTimestampValue
+GevTimestampValue
+	value: 0
+	range: (0, 9223372036854775807)
+Height
+Height
+	value: 1024
+	range: (1, 1024)
+HeightMax
+HeightMax
+	value: 1024
+	range: (0, 4294967295)
+ImageSize
+ImageSize
+	value: 1392640
+	range: (0, 4294967295)
+IrisAutoTarget
+IrisAutoTarget
+	value: 50
+	range: (0, 100)
+IrisMode
+IrisMode
+	value: Disabled
+	range: ['Disabled', 'Video', 'VideoOpen', 'VideoClose']
+IrisVideoLevel
+IrisVideoLevel
+	value: 0
+	range: (0, 150)
+IrisVideoLevelMax
+IrisVideoLevelMax
+	value: 110
+	range: (0, 150)
+IrisVideoLevelMin
+IrisVideoLevelMin
+	value: 90
+	range: (0, 150)
+MulticastEnable
+MulticastEnable
+	value: False
+	range: None
+MulticastIPAddress
+MulticastIPAddress
+	value: 4026470193
+	range: (3758096384, 4026531839)
+NonImagePayloadSize
+NonImagePayloadSize
+	value: 0
+	range: (0, 4294967295)
+OffsetX
+OffsetX
+	value: 0
+	range: (0, 1360)
+OffsetY
+OffsetY
+	value: 0
+	range: (0, 1024)
+PayloadSize
+PayloadSize
+	value: 1392640
+	range: (0, 4294967295)
+PixelFormat
+PixelFormat
+	value: Mono8
+	range: ['Mono8', 'Mono10', 'Mono12', 'Mono12Packed', 'Mono14', 'BayerGR8', 'BayerRG8', 'BayerBG8', 'BayerBG10', 'BayerGR12', 'BayerRG12', 'BayerGR12Packed', 'BayerRG12Packed', 'RGB8Packed', 'BGR8Packed', 'RGBA8Packed', 'BGRA8Packed', 'RGB10Packed', 'RGB12Packed', 'YUV411Packed', 'YUV422Packed', 'YUV444Packed']
+RecorderPreEventCount
+RecorderPreEventCount
+	value: 0
+	range: (0, 65535)
+SensorBits
+SensorBits
+	value: 12
+	range: (0, 4294967295)
+SensorHeight
+SensorHeight
+	value: 1024
+	range: (0, 4294967295)
+SensorType
+SensorType
+	value: Mono
+	range: ['Mono', 'Bayer']
+SensorWidth
+SensorWidth
+	value: 1360
+	range: (0, 4294967295)
+StatFrameDelivered
+StatFrameDelivered
+	value: 0
+	range: (0, 4294967295)
+StatFrameDropped
+StatFrameDropped
+	value: 0
+	range: (0, 4294967295)
+StatFrameRate
+StatFrameRate
+	value: 0.0
+	range: (0.0, 1.7976931348623157e+308)
+StatFrameRescued
+StatFrameRescued
+	value: 0
+	range: (0, 4294967295)
+StatFrameShoved
+StatFrameShoved
+	value: 0
+	range: (0, 4294967295)
+StatFrameUnderrun
+StatFrameUnderrun
+	value: 0
+	range: (0, 4294967295)
+StatLocalRate
+StatLocalRate
+	value: 0.0
+	range: (0.0, 1.7976931348623157e+308)
+StatPacketErrors
+StatPacketErrors
+	value: 0
+	range: (0, 4294967295)
+StatPacketMissed
+StatPacketMissed
+	value: 0
+	range: (0, 4294967295)
+StatPacketReceived
+StatPacketReceived
+	value: 0
+	range: (0, 4294967295)
+StatPacketRequested
+StatPacketRequested
+	value: 0
+	range: (0, 4294967295)
+StatPacketResent
+StatPacketResent
+	value: 0
+	range: (0, 4294967295)
+StatPacketUnavailable
+StatPacketUnavailable
+	value: 0
+	range: (0, 4294967295)
+StatTimeElapsed
+StatTimeElapsed
+	value: 0.0
+	range: (0.0, 1.7976931348623157e+308)
+StreamAnnounceBufferMinimum
+StreamAnnounceBufferMinimum
+	value: 1
+	range: (0, 4294967295)
+StreamAnnouncedBufferCount
+StreamAnnouncedBufferCount
+	value: 0
+	range: (0, 9223372036854775807)
+StreamBufferHandlingMode
+StreamBufferHandlingMode
+	value: Default
+	range: ['Default']
+StreamBytesPerSecond
+StreamBytesPerSecond
+	value: 115000000
+	range: (1000000, 124000000)
+StreamFrameRateConstrain
+StreamFrameRateConstrain
+	value: True
+	range: None
+StreamHoldCapacity
+StreamHoldCapacity
+	value: 10
+	range: (0, 4294967295)
+StreamHoldEnable
+StreamHoldEnable
+	value: Off
+	range: ['Off', 'On']
+StreamID
+StreamID
+	value: DEV_000F3101EF92-Stream-000
+	range: None
+StreamType
+StreamType
+	value: GEV
+	range: ['GEV']
+StrobeDelay
+StrobeDelay
+	value: 0
+	range: (0, 39268272)
+StrobeDuration
+StrobeDuration
+	value: 0
+	range: (0, 39268272)
+StrobeDurationMode
+StrobeDurationMode
+	value: Source
+	range: ['Source', 'Controlled']
+StrobeSource
+StrobeSource
+	value: FrameTrigger
+	range: ['AcquisitionTriggerReady', 'FrameTriggerReady', 'FrameTrigger', 'Exposing', 'FrameReadout', 'Acquiring', 'LineIn1', 'LineIn2']
+SyncInGlitchFilter
+SyncInGlitchFilter
+	value: 0
+	range: (0, 5000)
+SyncInLevels
+SyncInLevels
+	value: 0
+	range: (0, 4294967295)
+SyncInSelector
+SyncInSelector
+	value: SyncIn1
+	range: ['SyncIn1', 'SyncIn2', 'SyncIn3', 'SyncIn4']
+SyncOutLevels
+SyncOutLevels
+	value: 0
+	range: (0, 4294967295)
+SyncOutPolarity
+SyncOutPolarity
+	value: Normal
+	range: ['Normal', 'Invert']
+SyncOutSelector
+SyncOutSelector
+	value: SyncOut1
+	range: ['SyncOut1', 'SyncOut2', 'SyncOut3', 'SyncOut4']
+SyncOutSource
+SyncOutSource
+	value: FrameTrigger
+	range: ['GPO', 'AcquisitionTriggerReady', 'FrameTriggerReady', 'FrameTrigger', 'Exposing', 'FrameReadout', 'Imaging', 'Acquiring', 'LineIn1', 'LineIn2', 'Strobe1']
+TriggerActivation
+TriggerActivation
+	value: RisingEdge
+	range: ['RisingEdge', 'FallingEdge', 'AnyEdge', 'LevelHigh', 'LevelLow']
+TriggerDelayAbs
+TriggerDelayAbs
+	value: 0.0
+	range: (0.0, 39268272.0)
+TriggerMode
+TriggerMode
+	value: On
+	range: ['Off', 'On']
+TriggerOverlap
+TriggerOverlap
+	value: Off
+	range: ['Off', 'ReadOut', 'PreviousFrame']
+TriggerSelector
+TriggerSelector
+	value: FrameStart
+	range: ['FrameStart', 'AcquisitionStart', 'AcquisitionEnd', 'AcquisitionRecord']
+TriggerSoftware
+TriggerSoftware
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+TriggerSource
+TriggerSource
+	value: Freerun
+	range: ['Freerun', 'Line1', 'Line2', 'Line3', 'Line4', 'FixedRate', 'Software']
+UserSetDefaultSelector
+UserSetDefaultSelector
+	value: UserSet1
+	range: ['Default', 'UserSet1', 'UserSet2', 'UserSet3', 'UserSet4', 'UserSet5']
+UserSetLoad
+UserSetLoad
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+UserSetSave
+UserSetSave
+	value: Cannot get or set the value of a command feature type, call the command instead.
+	range: None
+UserSetSelector
+UserSetSelector
+	value: Default
+	range: ['Default', 'UserSet1', 'UserSet2', 'UserSet3', 'UserSet4', 'UserSet5']
+Width
+Width
+	value: 1360
+	range: (1, 1360)
+WidthMax
+WidthMax
+	value: 1360
+	range: (0, 4294967295)

@@ -413,17 +413,18 @@ def CW_ODMR(start:1000000000.0,stop:3000000000.0,points:20,I_coil:0,flag_PL:0,fl
 # os.mkdir(path)
 # print(path)
 
-flag_PL=0
+
+flag_PL=1
 flag_image=1
 I_coil=0
 num_points=100
 Image_matrix=np.zeros((1024,1360,num_points))
-# print(PL(flat,bias,dark_count,flag_PL))  
+print(PL(flat,bias,dark_count,flag_PL))  
 CW_ODMR(2700000000.0,3040000000.0,num_points,I_coil,flag_PL,flag_image,Image_matrix)
+
 
 # output_Mod_ON()
 # output_Mod_OFF()
 # A=np.array(np.load('Image data2023-08-08-11-07.npy',allow_pickle=True))
 # dic={"A":A}
 # savemat("image_matrix.mat", dic)
-
